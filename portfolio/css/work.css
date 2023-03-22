@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 1s linear;
+}
+a{
+    text-decoration: none;
+}
+div.social-contact {
+    position: fixed;
+    right: 0;
+    top: 55%;
+}
+div.line {
+    margin: 0 0px 5px 10px;
+}
+
+.working-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #fff;
+    width: 100%;
+}
+.working-section > h2{
+    color: #fff;
+    text-align: center;
+    margin:20px 0;
+    font-size: 30px;
+}
+div.mywork{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    margin:50px 60px;
+}
+.projects{
+    height:400px;
+    width:55%;
+    background: url(../pic/project1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 1s linear;
+}
+.project2{
+    height:340px;
+    width:55%;
+    background: url(../pic/burger.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 1s linear;
+    overflow: hidden;
+}
+.project3{
+    height:400px;
+    width:55%;
+    background: url(../pic/shoping.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 1s linear;
+}
+.project4{
+    width: 56%;
+    background: url(../pic/clock.png);
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 1s linear;
+    left:90px;
+}
+.project5{
+    background:url(../pic/Screenshot\ 2022-10-26\ 182704.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    }
+div.projects > .blck{
+    height:400px;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.453);
+    position: absolute;
+    display: none;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+}
+div.projects >div.blck1{
+    width:70%;
+}
+.visit-btn{
+    height: 60px;
+    width:160px;
+    border-radius: 40px;
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    margin:150px auto;
+    border:1px solid #fff;
+}
+.projects:hover > div.blck{
+    display: block;
+}
+.description{
+    height: 400px;
+    width: 25%;
+    padding:0 10px;
+    font-size: 22px;
+    font-weight:200;
+}
