@@ -1,2 +1,2 @@
-# consultwebpage.github.io
-this is a web page for consultancy 
+# portfolio.github.io
+this is a portfolio to showcase my knowledge and my some projects.
